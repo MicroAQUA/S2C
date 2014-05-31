@@ -1,0 +1,11 @@
+<IfModule mod_passenger.c>
+Options -MultiViews
+PassengerResolveSymlinksInDocumentRoot on
+#Set this to whatever environment you'll be running in
+RailsEnv production
+RackBaseURI /
+#SetEnv GEM_HOME /home1/examplec/ruby/gems
+SetEnv GEM_HOME /home5/engeebe1/ruby/gems
+SetEnv PATH /home5/engeebe1/R/bin
+#SetEnv PATH /home5/engeebe1/R/lib64/R/bin
+</IfModule>
